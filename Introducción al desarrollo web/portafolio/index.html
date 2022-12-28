@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <title>Portafolio - Felipe Pino</title>
+</head>
+<body class="bg-light">
+    
+    <!-- navbar inicio -->
+    <nav class="navbar navbar-light fixed-top bg-light shadow-sm">
+        <div class="container-lg">
+            <a class="navbar-brand text-danger fw-bold fs-4" href="#">Felipe Pino</a>
+            <div class="dropdown">
+                <button class="btn btn-secondary btn-danger px-3" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton">
+                    <li><a class="dropdown-item" href="#inicio">Inicio</a></li>
+                    <li><a class="dropdown-item" href="#acerca-de-mi">Acerca de mí</a></li>
+                    <li><a class="dropdown-item" href="#servicios">Servicios</a></li>
+                    <li><a class="dropdown-item" href="#portafolio">Portafolio</a></li>
+                    <li><a class="dropdown-item" href="#opiniones">Opiniones</a></li>
+                    <li><a class="dropdown-item" href="#contacto">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- navbar final -->
+
+    <!-- inicio -->
+    <section class="inicio py-0" id="inicio">  <!--py-5?-->
+        <div class="container-lg">
+            <div class="row min-vh-100 align-items-center align-content-center">
+                <div class="col-md-6 mt-5 mt-md-0">
+                    <div class="inicio-img text-center">
+                        <img src="./assets/img/perfil.jpg" class="rounded-circle mw-100" alt="imagen de perfil">
+                    </div>
+                </div>
+                <div class="col-md-6 mt-5 mt-md-0 mt order-md-first">
+                    <div class="texto-inicio">
+                        <p class="text-muted mb-1">Hola soy</p>
+                        <h1 class="text-danger text-uppercase fs-1 fw-bold">Desarrollador Junior</h1>
+                        <h2 class="fs-4">Felipe Pino</h2>
+                        <p class="mt-4 text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <a href="#portafolio" class="btn btn-danger px-3 mt-3">Mi trabajo</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- inicio final -->
+
+    <!-- acerca de mí - inicio -->
+    <section class="acerca-de-mi py-5" id="acerca-de-mi">
+        <div class="container-lg py-4">  <!--py-5?-->
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="section-title text-center">
+                        <h2 class="fw-bold mb-5">Acerca de mí</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="acerca-de-mi-text">
+                        <h3 class="fs-4 mb-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit</h3>
+                        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                    <div class="row text-center text-uppercase my-3">
+                        <div class="col-sm-4">
+                            <div class="fact-item">
+                                <h4 class="fs-1 fw-bold">6</h4>
+                                <p class="text-muted">Proy. Completados</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="fact-item">
+                                <h4 class="fs-1 fw-bold">3</h4>
+                                <p class="text-muted">Clientes Satisfechos</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="fact-item">
+                                <h4 class="fs-1 fw-bold">3</h4>
+                                <p class="text-muted">Evaluaciones Positivas</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12 d-flex align-items-center">
+                            <a href="https://drive.google.com/file/d/1i1KxG52n7JHbPn2tH9-Vf3J8RC2_Njxj/view?usp=sharing" class="btn px-3 btn-danger me-5">Descargar CV</a>
+                            <div class="social-links">
+                                <a href="https://www.facebook.com/" class="text-dark me-2"><i class="fab fa-facebook-f"></i></a>
+                                <a href="https://twitter.com/" class="text-dark me-2"><i class="fab fa-twitter"></i></a>
+                                <a href="https://www.instagram.com/" class="text-dark me-2"><i class="fab fa-instagram"></i></a>
+                                <a href="https://cl.linkedin.com/" class="text-dark me-2"><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mt-5 mt-md-0">
+                    <div class="skill-item mb-4">
+                        <h3 class="fs-6">HTML</h3>
+                        <div class="progress" style="height: 5px;">
+                            <div class="progress-bar bg-danger" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item mb-4">
+                        <h3 class="fs-6">CSS</h3>
+                        <div class="progress" style="height: 5px;">
+                            <div class="progress-bar bg-danger" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item mb-4">
+                        <h3 class="fs-6">Javascript</h3>
+                        <div class="progress" style="height: 5px;">
+                            <div class="progress-bar bg-danger" role="progressbar" style="width: 10%;" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <h3 class="fs-6">Bootstrap</h3>
+                        <div class="progress" style="height: 5px;">
+                            <div class="progress-bar bg-danger" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- acerca de mí - final -->
+
+    <!-- servicios inicio -->
+    <section class="servicios py-5" id="servicios">
+        <div class="container-lg py-4">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="section-title text-center">
+                        <h2 class="fw-bold mb-5">¿Que es lo que hago?</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="service-item shadow-sm p-4 rounded bg-white">
+                        <div class="icon my-3 text-danger fs-2">
+                            <i class="fas fa-code"></i>    
+                        </div>
+                        <h3 class="fs-5 py-2">Desarrollador Junior</h3>
+                        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="service-item shadow-sm p-4 rounded bg-white">
+                        <div class="icon my-3 text-danger fs-2">
+                            <i class="fas fa-lightbulb"></i>    
+                        </div>
+                        <h3 class="fs-5 py-2">Diseño Creativo</h3>
+                        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="service-item shadow-sm p-4 rounded bg-white">
+                        <div class="icon my-3 text-danger fs-2">
+                            <i class="fas fa-image"></i>    
+                        </div>
+                        <h3 class="fs-5 py-2">Photoshop</h3>
+                        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- servicios final -->
+
+    <!-- portafolio inicio -->
+    <section class="portafolio py-5" id="portafolio">
+        <div class="container-lg py-4">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="section-title text-center">
+                        <h2 class="fw-bold mb-5">Portafolio</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-lg-4">
+                    <div class="portafolio-item">
+                        <img src="./assets/img/portfolio/1.jpg" class="w-100 img-thumbnail" alt="portafolio-item">
+                        <h3 class="text-capitalize fs-5 my-2">Restaurante</h3>
+                        <p class="mb-4"><a href="https://p1peen.github.io/restaurante/" class="text-danger text-decoration-none">Link a GitHub</a></p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="portafolio-item">
+                        <img src="./assets/img/portfolio/2.jpg" class="w-100 img-thumbnail" alt="portafolio-item">
+                        <h3 class="text-capitalize fs-5 my-2">Curriculum Vitae</h3>
+                        <p class="mb-4"><a href="https://p1peen.github.io/cv-html/" class="text-danger text-decoration-none">Link a GitHub</a></p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="portafolio-item">
+                        <img src="./assets/img/portfolio/3.jpg" class="w-100 img-thumbnail" alt="portafolio-item">
+                        <h3 class="text-capitalize fs-5 my-2">Landing Page</h3>
+                        <p class="mb-4"><a href="https://p1peen.github.io/landing-page/" class="text-danger text-decoration-none">Link a GitHub</a></p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="portafolio-item">
+                        <img src="./assets/img/portfolio/4.jpg" class="w-100 img-thumbnail" alt="portafolio-item">
+                        <h3 class="text-capitalize fs-5 my-2">Iguana Page</h3>
+                        <p class="mb-4"><a href="https://p1peen.github.io/iguana-page/" class="text-danger text-decoration-none">Link a GitHub</a></p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="portafolio-item">
+                        <img src="./assets/img/portfolio/5.jpg" class="w-100 img-thumbnail" alt="portafolio-item">
+                        <h3 class="text-capitalize fs-5 my-2">Cuppon</h3>
+                        <p class="mb-4"><a href="https://p1peen.github.io/cuppon/" class="text-danger text-decoration-none">Link a GitHub</a></p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="portafolio-item">
+                        <img src="./assets/img/portfolio/6.jpg" class="w-100 img-thumbnail" alt="portafolio-item">
+                        <h3 class="text-capitalize fs-5 my-2">Github</h3>
+                        <p class="mb-4"><a href="https://p1peen.github.io/desafio-5/" class="text-danger text-decoration-none">Link a GitHub</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- portafolio final -->
+
+    <!-- disponibilidad freelancer inicio -->
+    <section class="disponibilidad-freelancer py-5 bg-danger">
+        <div class="container-lg py-4">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 text-center">
+                    <p class="text-light fs-5">¿Tienes algún proyecto en mente?</p>
+                    <h2 class="fs-1 text-white mb-4">Estoy disponible como Desarrollador Freelance</h2>
+                    <a href="#contacto" class="btn btn-outline-light">Contrátame</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- disponibilidad freelancer final -->
+    
+    <!-- opiniones inicio -->
+    <section class="opiniones py-5" id="opiniones">
+        <div class="container-lg py-4">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="section-title text-center">
+                        <h2 class="fw-bold mb-5">Opiniones</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-8 col-xl-7">
+                    <div id="carousel1" class="carousel slide" data-bs-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-bs-target="#carousel1" data-bs-slide-to="0" class="active bg-danger"></li>
+                            <li class="bg-danger" data-bs-target="#carousel1" data-bs-slide-to="1"></li>
+                            <li class="bg-danger" data-bs-target="#carousel1" data-bs-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner p-1">
+                            <!-- opiniones item inicio -->
+                            <div class="opiniones-item carousel-item active bg-white shadow-sm rounded p-4 mb-5">
+                                <div class="opiniones-autor-info d-flex align-items-center">
+                                    <img src="./assets/img/opiniones/1.jpg" class="img-thumbnail rounded-circle" alt="autor img">
+                                    <div class="autor ms-3">
+                                        <h3 class="fs-6 mb-1">Francisco Barañao</h3>
+                                        <p class="text-muted m-0">Gerente General</p>
+                                    </div>
+                                </div>
+                                <p class="text-muted mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                <div class="evaluaciones text-danger">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                            <!-- opiniones item final -->
+
+                            <!-- opiniones item inicio -->
+                            <div class="opiniones-item carousel-item bg-white shadow-sm rounded p-4 mb-5">
+                                <div class="opiniones-autor-info d-flex align-items-center">
+                                    <img src="./assets/img/opiniones/2.jpg" class="img-thumbnail rounded-circle" alt="autor img">
+                                    <div class="autor ms-3">
+                                        <h3 class="fs-6 mb-1">Gabriela Burgos</h3>
+                                        <p class="text-muted m-0">Analista</p>
+                                    </div>
+                                </div>
+                                <p class="text-muted mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                <div class="evaluaciones text-danger">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                            <!-- opiniones item final -->
+
+                            <!-- opiniones item inicio -->
+                            <div class="opiniones-item carousel-item bg-white shadow-sm rounded p-4 mb-5">
+                                <div class="opiniones-autor-info d-flex align-items-center">
+                                    <img src="./assets/img/opiniones/3.jpg" class="img-thumbnail rounded-circle" alt="autor img">
+                                    <div class="autor ms-3">
+                                        <h3 class="fs-6 mb-1">Nicolás Pérez</h3>
+                                        <p class="text-muted m-0">Desarrollador</p>
+                                    </div>
+                                </div>
+                                <p class="text-muted mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                <div class="evaluaciones text-danger">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                            <!-- opiniones item final -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- opiniones final --> 
+
+    <!-- contacto inicio -->
+    <section class="contacto py-5" id="contacto">
+        <div class="container-lg py-4">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="section-title text-center">
+                        <h2 class="fw-bold mb-5">Contacto</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-5">
+                    <div class="contacto-item d-flex mb-3">
+                        <div class="icon fs-4 text-danger">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="text ms-3">
+                            <h3 class="fs-5">Email</h3>
+                            <p class="text-muted">felipe.pinom@usach.cl</p>
+                        </div>
+                    </div>
+                    <div class="contacto-item d-flex mb-3">
+                        <div class="icon fs-4 text-danger">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="text ms-3">
+                            <h3 class="fs-5">Teléfono</h3>
+                            <p class="text-muted">934821***</p>
+                        </div>
+                    </div>
+                    <div class="contacto-item d-flex mb-3">
+                        <div class="icon fs-4 text-danger">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="text ms-3">
+                            <h3 class="fs-5">Dirección</h3>
+                            <p class="text-muted">Psje. Piedra Callada #7073, Pudahuel</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-7">
+                    <div class="contacto-form">
+                        <form action="">
+                            <div class="row">
+                                <div class="col-lg-6 mb-4">
+                                    <input type="text" placeholder="Nombre" class="form-control form-control-lg fs-6 border-0 shadow-sm">
+                                </div>
+                                <div class="col-lg-6 mb-4">
+                                    <input type="text" placeholder="Email" class="form-control form-control-lg fs-6 border-0 shadow-sm">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12 mb-4">
+                                    <input type="text" placeholder="Título" class="form-control form-control-lg fs-6 border-0 shadow-sm">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12 mb-4">
+                                    <textarea rows="5" placeholder="Mensaje" class="form-control form-control-lg fs-6 border-0 shadow-sm"></textarea>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <button type="submit" class="btn btn-danger px-3">Enviar mensaje</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- contacto final -->
+
+    <!-- footer inicio -->
+    <footer class="footer border-top py-4">
+        <div class="container-lg">
+            <div class="row">
+                <div class="col-lg-12">
+                    <p class="m-0 text-center text-muted">&copy; 2022 Felipe Pino</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer final -->
+
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

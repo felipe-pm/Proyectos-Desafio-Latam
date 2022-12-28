@@ -1,0 +1,147 @@
+body {
+    text-align: center;
+    color: black;
+    font-family: 'Raleway',Arial, Helvetica, sans-serif;
+    margin:0;
+}
+
+body * {
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+nav {
+    background-color: black;
+    color: white;
+    height: 73px;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    margin: 0;
+    font-weight: 500;
+    font-size: 50px;
+}
+
+h2 {
+    margin: 0;
+    font-weight: 500;
+    font-size: 40px;
+}
+
+header {
+    width:100%;
+    height: 727px;
+    margin:0;
+    background-image: url('../img/bg-header.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main {
+    background-color: black;
+    height: 348px;
+    display: flex;
+    align-items: center;
+    padding-right: 150px;
+    padding-left: 150px;
+    padding-top: 45px;
+    padding-bottom: 66px;
+    text-align: left;
+}
+
+.main-text, .main-image {
+    display: inline-block;
+    width: 50%;
+}
+
+.main-image {
+    text-align: center;
+}
+
+.main-image img {
+    width: 399px;
+    height: 237px;
+}
+
+.main-text {
+    justify-content: center;
+}
+
+.main-text p {
+    margin-bottom: 32px;
+}
+
+.icons-section {
+    height: 348px;
+    background:#1E1A13;
+    padding: 74px 244px;
+    display: flex;
+    align-items: center;
+}
+
+.icons-section .icons {
+    width: 100%;
+}
+
+.icons-title {
+    width: 100%;
+    margin-bottom: 64px;
+    font-size: 40px
+}
+
+.font-icons {
+    display: inline-block;
+    width: 30%;
+}
+
+.font-icons i {
+    margin-bottom: 8px;
+}
+
+.icons-body {
+    width: 100%;
+}
+
+.font-icons p {
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.images-section {
+    height: 348px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.images-section .image {
+    display: inline-block;
+    width: 316px;
+    height: 202px;
+    margin: 8px;
+}
+
+.image img {
+    width: 100%;
+    height: 100%;
+}
+
+footer {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background-color: #1E1A13;
+    height: 102px;
+}
+
+footer p {
+    font-weight: 300;
+    font-size: 20px;
+}
