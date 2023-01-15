@@ -1,0 +1,39 @@
+[
+    {
+        "nombre": "Departamento antiguo",
+        "descripcion": "Disfruta del pasado",
+        "src": "./assets/img/antiguo.jpg",
+        "cuartos": 3,
+        "metros": 200
+    },{
+        "nombre": "Departamento innovador",
+        "descripcion": "Escapate con las novedades",
+        "src": "./assets/img/moderno.png",
+        "cuartos": 2,
+        "metros": 70
+    },{
+        "nombre": "Departamento creativo",
+        "descripcion": "Creatividad en su máxima expresión",
+        "src": "./assets/img/arquitectura.jpg",
+        "cuartos": 5,
+        "metros": 300
+    },{
+        "nombre": "Departamento confortable",
+        "descripcion": "Desde las alturas todo se ve mejor",
+        "src": "./assets/img/chico.jpg",
+        "cuartos": 1,
+        "metros": 45
+    },{
+        "nombre": "Departamento en las alturas",
+        "descripcion": "Desde las alturas todo se ve mejor",
+        "src": "./assets/img/alto.png",
+        "cuartos": 2,
+        "metros": 50
+    },{
+        "nombre": "Departamento",
+        "descripcion": "Desde las alturas todo se ve mejor",
+        "src": "./assets/img/amplio.jpeg",
+        "cuartos": 1,
+        "metros": 70
+    }
+]
